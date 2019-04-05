@@ -1,4 +1,4 @@
-var matches = [
+var friends = [
     {
         name: "Selena Gomez",
         photo: "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/bgus-1486785-002-1550157188.jpg?crop=1.00xw:0.335xh;0,0.0170xh&resize=1200:*",
@@ -26,4 +26,4 @@ var matches = [
     }
 ];
 
-module.exports = matches;
+module.exports = friends;
