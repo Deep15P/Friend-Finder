@@ -1,5 +1,6 @@
-// write the survey 
-var friends = require("../data/friends.js");
+
+var path = require('path');
+var friends = require('../data/friends.js');
 
 // this is the api get request. Gets data from friends.js file. Where we made our friends.
 module.exports = function(app) {
