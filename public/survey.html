@@ -182,7 +182,7 @@
       scores: capturedChoices
     };
 
-    console.log(newReservation);
+    console.log(newUser);
 
     // This line is the magic. It"s very similar to the standard ajax function we used.
     // Essentially we give it a URL, we give it the object we want to send, then we have a "callback".
@@ -191,7 +191,7 @@
 
     $.post("/api/friends", newUser,
       function(data) {
-        
+
         // If a table is available... tell user they are booked.
         if (data) {
           alert("Yay! You are officially booked!");
